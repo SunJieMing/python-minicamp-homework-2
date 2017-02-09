@@ -8,9 +8,9 @@
 	***Example***: A GET request to `localhost:5000/` would return `'Hello World'`.
 
 
-2. Build a route called `/birthday` that returns your birthday as a `string` in this format: 'October 14 1911'.
+2. Build a route called `/birthday` that returns your birthday as a `string` in this format: `'October 30 1911'`.
 
-	***Example***: A GET request to `localhost:5000/birthday` returns `'October 14 1991'` (Use your birthday instead)
+	***Example***: A GET request to `localhost:5000/birthday` returns `'October 30 1911'` (Use your birthday instead)
 
 
 3. Build a route called `/greeting` that accepts a parameter called `name`.  The route should return a string
@@ -53,3 +53,31 @@ Paste this HTML into `home.html`.
 
 ### Extra Credit
 
+1. Create a route called `/sum` that adds two parameteres together and returns them.
+	* `localhost:5000/sum/5/10` would return `'15'`
+	* You will need to convert the parameters to integers using `int()`
+	* Example: `fiveAsInt = int('5')` => `fiveAsInt == 5`
+	* You then have to convert the `int` back into a `string` using `str()`
+	* Example: `fiveAsString = str(5)` => `fiveAsString == '5'`
+
+2. Create a route called `/multiply` and a route called `/subtract` 
+	* `localhost:5000/multiply/6/5` would return `'30'`
+	* `localhost:5000/subtract/25/5` would return `'20'`
+	* Make sure you are converting the parameters to `int`s and returning a `string`
+
+3. Create a route called `/favoritefoods` that returns a `list` of your favorite foods
+	* A `list` is a collection of different values. => `['football', 'basketball', 'rugby']`
+	* The server must return a string so we need to convert our list into a string.
+	* One common string format for sending complex data is `JSON`.
+	* Change the top line of your server file to `from flask import Flask, render_template, jsonify`
+	* Pass your `list` to `jsonify()` when returning it. `return jsonify(myList)`
+
+---
+#### Congratulations on finishing Homework #2
+Apply to our full time or part time immersive program to learn cutting edge technologies that are used by top technology companies around the world.
+
+Our part time and full time courses are 12 intense weeks of focused study on the most relevant technologies.  
+
+Class sizes are small to ensure that each student gets individual attention from instructors to help them succeed.
+
+For more information visit: https://lambdaschool.com
