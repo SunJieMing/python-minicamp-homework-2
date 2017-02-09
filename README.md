@@ -78,6 +78,6 @@ Apply to our full time or part time immersive program to learn cutting edge tech
 
 Our part time and full time courses are 12 intense weeks of focused study on the most relevant technologies.  
 
-Class sizes are small to ensure that each student gets individual attention from instructors to help them succeed.
+Class sizes are small to ensure that each student gets individual attention from our world class instructors to help them succeed.
 
 For more information visit: https://lambdaschool.com
