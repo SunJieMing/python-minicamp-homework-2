@@ -59,6 +59,7 @@ Paste this HTML into `home.html`.
 	* Example: `fiveAsInt = int('5')` => `fiveAsInt == 5`
 	* You then have to convert the `int` back into a `string` using `str()`
 	* Example: `fiveAsString = str(5)` => `fiveAsString == '5'`
+	* You can also prefix the parameter with the keyword `int` => `<int:param>`. Make sure you turn it back into a `string`
 
 2. Create a route called `/multiply` and a route called `/subtract` 
 	* `localhost:5000/multiply/6/5` would return `'30'`
