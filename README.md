@@ -77,7 +77,7 @@ Paste this HTML into `home.html`.
 #### Congratulations on finishing Homework #2
 Apply to our full time or part time immersive program to learn cutting edge technologies that are used by top technology companies around the world.
 
-Our part time and full time courses are 12 intense weeks of focused study on the most relevant technologies.  
+Our part time and full time courses are 13 intense weeks of focused study on the most relevant technologies.  
 
 Class sizes are small to ensure that each student gets individual attention from our world class instructors to help them succeed.
 
