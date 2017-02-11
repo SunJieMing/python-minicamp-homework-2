@@ -53,8 +53,8 @@ Paste this HTML into `home.html`.
 
 ### Extra Credit
 
-1. Create a route called `/sum` that adds two parameteres together and returns them.
-	* `localhost:5000/sum/5/10` would return `'15'`
+1. Create a route called `/add` that adds two parameteres together and returns them.
+	* `localhost:5000/add/5/10` would return `'15'`
 	* You will need to convert the parameters to integers using `int()`
 	* Example: `fiveAsInt = int('5')` => `fiveAsInt == 5`
 	* You then have to convert the `int` back into a `string` using `str()`
